@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Hero;
+    src: url(./fonts/Hero/Hero-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Hero;
+    src: url(./fonts/Hero/Hero-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Hero;
+    src: url(./fonts/Hero/Hero-Light.ttf) format("truetype");
+    font-weight: lighter;
+}
