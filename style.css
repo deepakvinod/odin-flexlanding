@@ -58,6 +58,7 @@ a
 button
 {
     background-color: #3882f6;
+    border-color: #3882f6;
     color: #f9faf8;
     border-radius: 6px;
     padding: 4px 16px;
@@ -136,9 +137,4 @@ ul.navmem
 .banner #title
 {
     font-size: 48px;
-}
-
-.banner-text button
-{
-    border-color: #3882f6;
 }
