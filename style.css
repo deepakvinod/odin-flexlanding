@@ -55,6 +55,17 @@ a
     color: #e5e7eb;
 }
 
+.dark
+{
+    color: #1F2937;
+}
+
+.darkgrey
+{
+    color: #e5e7eb;
+
+}
+
 .signup button
 {
     background-color: #3882f6;
@@ -162,3 +173,10 @@ ul.navmem
     font-size: 48px;
     font-weight: bolder;
 }
+
+main
+{
+    width: 100%;
+    background-color: #f9faf8;
+}
+
