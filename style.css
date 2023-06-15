@@ -127,8 +127,7 @@ ul.navmem
     flex-wrap: wrap;
     align-items: center;
     gap: 24px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 40px 0;
 }
 
 .banner picture
@@ -220,4 +219,58 @@ main h2
 {
     font-size: 12px;
     text-align: center;
+}
+
+.testimonials
+{
+    background-color: #e5e7eb;
+    padding: 40px 0;
+}
+
+.test-banner
+{
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: auto;
+    scrollbar-color: #1f2937 transparent;
+}
+
+.test-banner::-webkit-scrollbar 
+{
+    width: 4px;
+}
+.test-banner::-webkit-scrollbar-track 
+{
+    background: transparent;
+}
+
+.test-banner::-webkit-scrollbar-thumb 
+{
+    background-color: #1f2937;
+    border-radius: 20px;
+    border: transparent;
+}
+
+
+.test-cont
+{
+    width: 100%;
+    flex: none;
+    scroll-snap-align: start;
+    padding-bottom: 8px;
+}
+
+.test-cont .author
+{
+    text-align: right;
+    font-weight: bolder;
+}
+
+.test-cont blockquote
+{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
 }
