@@ -79,13 +79,16 @@ header
 nav
 {   
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 16px;
     align-items: center;
+    padding: 8px 0;
 }
 
 picture.navmem
 {
     filter: invert(0.4);
+    display: flex;
 }
 
 ul.navmem
@@ -116,6 +119,7 @@ ul.navmem
     min-width: 200px;
     max-width: 300px;
     flex: 1 1 200px;
+    display: flex;
 }
 
 .banner-text
@@ -134,7 +138,15 @@ ul.navmem
     border-radius: 5px;
 }
 
+.navmem#logo-title
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
 .banner #title
 {
     font-size: 48px;
+    font-weight: bolder;
 }
