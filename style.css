@@ -20,7 +20,7 @@
 {
     font-family: Hero, system-ui, sans-serif;
     font-size: 18px;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 
 body
@@ -58,12 +58,6 @@ a
 .dark
 {
     color: #1F2937;
-}
-
-.darkgrey
-{
-    color: #e5e7eb;
-
 }
 
 .signup button
@@ -185,5 +179,45 @@ main h2
 {
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
+}
+
+.pic-ban
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.pic-card
+{
+    text-align: center;
+    width: 120px;
+    /* width: 20%; */
+    flex: 0 0 auto;
+    color: #1F2937;
+}
+
+.pic-card picture
+{
+    /* width: 100px; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pic-card img
+{
+    width: 98%;
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+}
+
+.pic-card .subtext
+{
+    font-size: 12px;
     text-align: center;
 }
