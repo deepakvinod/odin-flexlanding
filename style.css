@@ -180,3 +180,8 @@ main
     background-color: #f9faf8;
 }
 
+main h2
+{
+    font-size: 36px;
+    font-weight: bolder;
+}
