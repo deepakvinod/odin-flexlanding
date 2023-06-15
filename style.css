@@ -62,6 +62,12 @@ a
     color: #f9faf8;
     border-radius: 6px;
     padding: 4px 16px;
+    cursor: pointer;
+}
+
+.signup button:hover
+{
+    background-color: #0062ff;
 }
 
 .inner
