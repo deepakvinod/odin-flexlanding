@@ -6,3 +6,4 @@ Landing Page created based on the finishing project from the Flexbox section in 
 2. Semantic HTML for elements instead of divs
 3. Hosting fonts (and maybe in woff2)
 4. Progressive enchancment for images
+5. Dip my toes with pseudo selectors
