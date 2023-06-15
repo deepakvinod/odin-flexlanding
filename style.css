@@ -55,7 +55,7 @@ a
     color: #e5e7eb;
 }
 
-button
+.signup button
 {
     background-color: #3882f6;
     border-color: #3882f6;
@@ -74,6 +74,12 @@ header
 {
     width: 100%;
     background-color: #1F2937;
+}
+
+header  *
+{
+    margin: 0;
+    padding: 0;
 }
 
 nav
