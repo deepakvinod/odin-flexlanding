@@ -275,6 +275,19 @@ main h2
     text-align: left;
 }
 
+.call2ac
+{
+    background-color: #f9faf8;
+    padding: 40px 0;
+}
+
+.c2a-bann
+{
+    background-color: #3882f6;
+    padding: 16px 40px;
+    border-radius: 4px;
+}
+
 footer
 {
     padding: 10px 30px;
